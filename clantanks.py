@@ -21,7 +21,8 @@ def create_config(filename):
         'api key': 'demo',
         'clan name': 'RDDT',
         'sheet name': 'RDDT Member Tanks',
-        'oauth creds': 'drive_oauth.json'
+        'oauth creds': 'drive_oauth.json',
+        'email': 'youremail@gmail.com'
     }
     with open(filename, 'w') as f:
         dump(config, f, indent=2)
